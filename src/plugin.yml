@@ -1,0 +1,17 @@
+name: McLogin
+version: 0.0.1
+description: Login provider for Bukkit
+author: Muziekklas
+main: org.zapto.muziedev.McLogin.McLogin
+database: false
+commands:
+   login:
+      description: This is logins the player.
+      usage: /login [pin]
+      permission: mclogin.login
+      permission-message: You cannot use the login command!
+   saveloc:
+      description: This is saves the location of the player
+      usage: /saveloc
+      permission: mclogin.saveloc
+      permission-message: You cannot use the saveloc command!
